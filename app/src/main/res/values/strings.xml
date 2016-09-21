@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Learn to cook Eggs</string>
+    <string name="app_title">5 Ways to Cook Eggs</string>
+    <string name="header1">Picture</string>
+    <string name="header2">Style</string>
+    <string name="header3">Difficulty Level</string>
+    <string name="pic1">Boiled Eggs</string>
+    <string name="pic2">Poached Eggs</string>
+    <string name="pic3">BullsEye Eggs</string>
+    <string name="pic4">Scrambled Eggs</string>
+    <string name="pic5">Eggs Omelette</string>
+    <string name="style1">Boiled Eggs</string>
+    <string name="style2">Poached Eggs</string>
+    <string name="style3">BullsEye Eggs</string>
+    <string name="style4">Scrambled Eggs</string>
+    <string name="style5">Eggs Omelette</string>
+    <string name="level1">Super Easy</string>
+    <string name="level2">Easy</string>
+    <string name="level3">Medium Difficult</string>
+    <string name="level4">Difficult</string>
+    <string name="level5">Super Difficult</string>
+
+    <!-- Strings common to all the Activity with each of the recipes -->
+
+    <string name="recipe">Recipe</string>
+    <string name="taste_guide">Is it done? - Taste Guide</string>
+    <string name="bt_facebook_yes">Take picture and Share on Facebook</string>
+    <string name="bt_facebook_no">Ask for help on Facebook</string>
+    <string name="txt_decision">Are you happy with your dish?</string>
+    <string name="bt_share_yes">Yes</string>
+    <string name="bt_share_no">No</string>
+
+    <!-- Strings, definitions, recipes, etc. for "Boiled Eggs" -->
+
+    <string name="title_activity_boiled_eggs">How to Boil Eggs?</string>
+    <string name="img_boiled_eggs">Boiled Eggs</string>
+    <string name="boiledEggsDefinition">Definition of Boiled Eggs</string>
+    <string name="boiledEggsDescription">Boiled eggs are eggs cooked with their shells unbroken, usually by immersion in boiling water. Hard-boiled eggs are cooked so that the egg white and egg yolk both solidify, while for a soft-boiled egg the yolk, and sometimes the white, remain at least partially liquid</string>
+    <string name="boiledEggsRecipe">Put refrigerated eggs in a heavy bottomed pot and cover with cold tap water so they are covered by about 1 inch (2.5cm) of water. Bring the water to a full boil (100 degrees C) over high heat, and then remove the pot from the heat. Let the eggs cook the rest of the way using the residual heat in the water. As the temperature of the egg rises, the temperature of the water will fall, which will give you a much wider window when your egg is perfectly cooked.</string>
+    <string name="boiledEggsTasteGuide">After cooling the boiled eggs for about 5 minutes, peel the hard shell off. Start by cracking a small portion of the shell with the back of the spoon. Slowly remove all the shell. Next take a knife and cut open the egg in half from the center. No yolk should flow out. The egg white should also be firm. Compare to the picture above. If it looks like it. It is done and you have the perfect hard boiled egg.</string>
+
+    <!-- Strings, definitions, recipes, etc. for "Poached Eggs" -->
+    <string name="title_activity_poached_eggs">How to make Poach Eggs?</string>
+    <string name="img_poached_eggs">Poached Eggs</string>
+    <string name="poachedEggsDefinition">Definition of Poached Eggs</string>
+    <string name="poachedEggsDescription">A poached egg is an egg that has been cooked by poaching, that is, in simmering liquid. This method of preparation is favored because a very consistent and predictable result can be obtained with precise timing, as the boiling point of water removes the temperature variability from the cooking process</string>
+    <string name="poachedEggsRecipe">Make sure your eggs are really fresh.
+Add a small dash of vinegar to a pan of steadily simmering water.
+Crack eggs individually into a ramekin or cup.
+Create a gentle whirlpool in the water to help the egg white wrap around the yolk.
+Slowly tip the egg into the water, white first. Leave to cook for three minutes.
+Remove with a slotted spoon, cutting off any wispy edges using the edge of the spoon.
+Drain onto kitchen paper – nobody wants eggy poaching water making their toast soggy or wilting their salad.</string>
+    <string name="poachedEggsTasteGuide">The perfect poached egg has a runny yolk, with a hardening crust and no raw white remaining</string>
+
+    <!-- Strings, definitions, recipes, etc. for "BullsEye Eggs" -->
+    <string name="title_activity_bullsEye_eggs">How to make BullsEye Eggs?</string>
+    <string name="img_bullsEye_eggs">BullsEye Eggs</string>
+    <string name="bullsEyeEggsDefinition">Definition of BullsEye Eggs</string>
+    <string name="bullsEyeEggsDescription">A BullsEye fried egg is a cooked dish commonly made using a fresh hen egg, fried whole with minimal accompaniment. Fried eggs are traditionally eaten for breakfast in English-speaking countries but may also be served at other times of the day.</string>
+    <string name="bullsEyeEggsRecipe">Heat a non-stick skillet (or a regular skillet greased with a small amount of butter, margarine, or cooking oil) at medium heat until just hot enough to sizzle a drop of water.  Or use a regular skillet and add a small amount of butter or oil.
+        Break eggs and gently slip into the skillet. Immediately reduce heat to low.  Cook slowly until whites are completely set and yolks begin to thicken, but are not hard (turning eggs gently to cook both sides or adding a small amount of water and covering with lid to cook tops of eggs).</string>
+    <string name="bullsEyeEggsTasteGuide">Cooked on both sides; the yolk is runny and the egg white is fully cooked.</string>
+
+
+    <!-- Strings, definitions, recipes, etc. for "Scrambled Eggs" -->
+    <string name="title_activity_scrambled_eggs">How to make Scrambled Eggs?</string>
+    <string name="img_scrambled_eggs">Scrambled Eggs</string>
+    <string name="scrambledEggsDefinition">Definition of Scrambled Eggs</string>
+    <string name="scrambledEggsDescription">Scrambled eggs is a dish made from whites and yolks of eggs stirred or beaten together, typically with salt and butter and variable other ingredients, and then gently heated in a pan while being stirred.</string>
+    <string name="scrambledEggsRecipe">BEAT eggs, milk, salt and pepper in medium bowl until blended.
+HEAT butter in large nonstick skillet over medium heat until hot. POUR IN egg mixture. ...
+CONTINUE cooking – pulling, lifting and folding eggs – until thickened and no visible liquid egg remains. Do not stir constantly.</string>
+    <string name="scrambledEggsTasteGuide">Do not over-stir - think of theseas folded eggs rather than scrambled. The eggs should have the texture of soft curds. It is best not to cook more than three portions in one go as you will overcrowd the pan and the eggs would not cook as well.</string>
+
+
+    <!-- Strings, definitions, recipes, etc. for "Omelette" -->
+    <string name="title_activity_omelette">How to make Omelette?</string>
+    <string name="img_omelette_eggs">Egg Omelette</string>
+    <string name="omeletteEggsDefinition">Definition of Omelette</string>
+    <string name="omeletteEggsDescription">an omelette or omelet is a dish made from beaten eggs quickly fried with butter or oil in a frying pan</string>
+    <string name="omeletteEggsRecipe">Gently beat the eggs together in a mixing bowl and season, to taste, with salt and pepper.
+Heat the butter in a frying pan until foaming. Pour in the eggs and cook for a few seconds, until the bottom of the omelette is lightly set. Push the set parts of the omelette into the uncooked centre of the omelette. Cook again, until the omelette has set further, then push those set parts into the centre of the omelette again. Repeat the process until the eggs have just set but the omelette is still soft in the centre.
+Put the cheese and three-quarters of the ham in the centre of the omelette and cook until the cheese has melted.
+Increase the heat to high and cook the omelette for a further 30 seconds, or until it browns on the bottom.
+Fold the omelette in half, then remove the pan from the heat and tilt it slightly to move the omelette to the edge of the pan. Slide the omelette onto a serving plate, then shape it into a neat roll. Sprinkle over the remaining ham.</string>
+    <string name="omeletteEggsTasteGuide">The omelette will finish cooking in 1 to 2 minutes. When done, the bottom will be set and the edges will look crisp. The top of the omelette should still look fairly wet and uncooked, but there will no longer be any loose, easily flowing liquid egg — the omelette will continue cooking off the heat, so finish when you think the top still seems a bit underdone.</string>
+
+</resources>

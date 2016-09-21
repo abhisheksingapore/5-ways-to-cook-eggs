@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.tatsme.afb.myandroidfinalproject.OmeletteEggs">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/style5"
+            android:textSize="20sp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/abc_primary_text_disable_only_material_light"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:id="@+id/txt_title_omelette_eggs" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/omelette"
+            android:layout_below="@+id/txt_title_omelette_eggs"
+            android:contentDescription="@string/img_omelette_eggs"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/img_title_omelette_eggs" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/omeletteEggsDefinition"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/img_title_omelette_eggs"
+            android:id="@+id/txt_omelette_definition"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/omeletteEggsDescription"
+            android:id="@+id/txt_omelette_description"
+            android:textSize="20sp"
+            android:layout_below="@+id/txt_omelette_definition"
+            android:paddingBottom="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_omelette_title"
+            android:layout_below="@+id/txt_omelette_description"
+            android:text="@string/recipe"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/omeletteEggsRecipe"
+            android:id="@+id/txt_omelette_recipe"
+            android:layout_below="@+id/txt_omelette_title"
+            android:paddingBottom="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/taste_guide"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/txt_omelette_taste_guide_title"
+            android:layout_below="@+id/txt_omelette_recipe" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_omelette_taste_guide_title"
+            android:id="@+id/txt_omelette_taste_guide"
+            android:text="@string/omeletteEggsTasteGuide"
+            android:paddingBottom="20dp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_omelette_taste_guide">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_decision"
+                android:textStyle="bold"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt_omelette_fb_yes"
+                android:clickable="true"
+                android:text="@string/bt_share_yes"
+                android:onClick="clickOmeletteDecisionYes"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt_omelette_fb_no"
+                android:clickable="true"
+                android:text="@string/bt_share_no"
+                android:onClick="clickOmeletteDecisionNo"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt_omelette_fb"
+                android:visibility="gone"
+                android:clickable="true"
+                android:onClick="clickOmeletteFBshare"/>
+
+        </TableLayout>
+    </RelativeLayout>
+
+</ScrollView>
